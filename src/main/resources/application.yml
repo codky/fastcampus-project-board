@@ -17,8 +17,8 @@ logging:
 spring:
   datasource:
     url: jdbc:mysql://localhost:3306/board
-    username: minseok
-    password: thisisTESTpw!@#$
+    username: root
+    password: pw1234!
     driver-class-name: com.mysql.cj.jdbc.Driver
 #    url: jdbc:h2:mem:testdb
 #    username: sa
@@ -38,3 +38,6 @@ spring:
   data.rest:
     base-path: /api
     detection-strategy: annotated
+  thymeleaf3:
+    decoupled-logic: true
+
